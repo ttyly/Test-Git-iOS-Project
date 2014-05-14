@@ -21,6 +21,8 @@
 		1217C5411923E07400DF2665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1217C5231923E07400DF2665 /* UIKit.framework */; };
 		1217C5491923E07400DF2665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1217C5471923E07400DF2665 /* InfoPlist.strings */; };
 		1217C54B1923E07400DF2665 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1217C54A1923E07400DF2665 /* Git_TestTests.m */; };
+		1217C5561923E50D00DF2665 /* TLTestss.m in Sources */ = {isa = PBXBuildFile; fileRef = 1217C5551923E50D00DF2665 /* TLTestss.m */; };
+		1217C5591923E61000DF2665 /* TLAnotherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1217C5581923E61000DF2665 /* TLAnotherTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1217C5461923E07400DF2665 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1217C5481923E07400DF2665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1217C54A1923E07400DF2665 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1217C5541923E50D00DF2665 /* TLTestss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLTestss.h; path = ../../Resources/TLTestss.h; sourceTree = "<group>"; };
+		1217C5551923E50D00DF2665 /* TLTestss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLTestss.m; path = ../../Resources/TLTestss.m; sourceTree = "<group>"; };
+		1217C5571923E61000DF2665 /* TLAnotherTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAnotherTest.h; sourceTree = "<group>"; };
+		1217C5581923E61000DF2665 /* TLAnotherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAnotherTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				1217C5311923E07400DF2665 /* Main.storyboard */,
 				1217C5341923E07400DF2665 /* TLViewController.h */,
 				1217C5351923E07400DF2665 /* TLViewController.m */,
+				1217C5541923E50D00DF2665 /* TLTestss.h */,
+				1217C5551923E50D00DF2665 /* TLTestss.m */,
+				1217C5571923E61000DF2665 /* TLAnotherTest.h */,
+				1217C5581923E61000DF2665 /* TLAnotherTest.m */,
 				1217C5371923E07400DF2665 /* Images.xcassets */,
 				1217C5261923E07400DF2665 /* Supporting Files */,
 			);
@@ -253,6 +263,8 @@
 				1217C5361923E07400DF2665 /* TLViewController.m in Sources */,
 				1217C5301923E07400DF2665 /* TLAppDelegate.m in Sources */,
 				1217C52C1923E07400DF2665 /* main.m in Sources */,
+				1217C5561923E50D00DF2665 /* TLTestss.m in Sources */,
+				1217C5591923E61000DF2665 /* TLAnotherTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
